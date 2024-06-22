@@ -14,22 +14,22 @@ const DemoPreview = () => (
 
 const defaultValue = {
   companyDetails: {
-    companyName: "Prolab Inc",
-    companyAddress: "1600 Amphitheatre Parkway",
-    companyCity: "Mountain View",
-    companyState: "CA",
+    companyName: "Amazon, Inc.",
+    companyAddress: "410 Terry Ave N",
+    companyCity: "Seattle",
+    companyState: "WA",
     companyCountry: "USA",
     companyLogo: "/android-chrome-192x192.png",
     companyTaxId: "",
     companyZip: "94043",
-    email: "support@prolab.sh",
+    email: "support@amazon.com",
   },
   yourDetails: {
-    yourName: "Pranav Patel",
+    yourName: "John Doe",
     yourAddress: "6th Main Rd, Eshwara Layout, Indiranagar,",
-    yourCity: "Bengaluru",
+    yourCity: "New York",
     yourState: "Karnataka",
-    yourCountry: "India",
+    yourCountry: "USA",
     yourLogo: "/pranav.png",
     yourEmail: "hi@pranavp.xyz",
     yourTaxId: "",
@@ -42,7 +42,7 @@ const defaultValue = {
     routingCode: "123456",
     swiftCode: "AXISINBB1234",
     ifscCode: "UTIB0000000",
-    currency: "INR",
+    currency: "USD",
   },
   invoiceTerms: {
     invoiceNumber: "Invoice #25",
@@ -56,16 +56,16 @@ const defaultValue = {
     items: [
       {
         itemDescription: "Software Development Services",
-        amount: 225000,
-        qty: 0,
+        amount: 25000,
+        qty: 1,
       },
       {
         itemDescription: "Hosting Charge",
-        amount: 22000,
-        qty: 0,
+        amount: 100,
+        qty: 1,
       },
     ],
-    currency: "INR",
+    currency: "USD",
   },
 };
 export default DemoPreview;
