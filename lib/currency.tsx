@@ -29,18 +29,18 @@ export const currencyList: {
     iconName: string;
   };
 }[] = [
-  {
-    value: "INR",
-    label: "INR",
-    details: {
-      country: "India",
-      currencySymbol: "₹",
-      currencyName: "Indian Rupee",
-      currencyShortForm: "INR",
-      icon: IN,
-      iconName: "IN",
-    },
-  },
+  // {
+  //   value: "INR",
+  //   label: "INR",
+  //   details: {
+  //     country: "India",
+  //     currencySymbol: "₹",
+  //     currencyName: "Indian Rupee",
+  //     currencyShortForm: "INR",
+  //     icon: IN,
+  //     iconName: "IN",
+  //   },
+  // },
   {
     value: "USD",
     label: "USD",
