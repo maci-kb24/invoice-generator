@@ -161,7 +161,7 @@ const Home = () => {
           </div>
         </div>
         
-        <div className="flex flex-col justify-between items-center lg:flex-row lg:items-start pt-11 max-w-screen-md mx-auto gap-8">
+        {/* <div className="flex flex-col justify-between items-center lg:flex-row lg:items-start pt-11 max-w-screen-md mx-auto gap-8">
           <div className="w-full flex-1 mt-8 p-8 order-2 bg-white shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-1 border-dashed">
             <div className="mb-7 pb-7 flex items-center border-b border-gray-300">
               <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-gray-300 bg-gradient-to-br from-orange-100 to-pink-100">
@@ -258,7 +258,7 @@ const Home = () => {
             </Link>
           </div>
 
-        </div>
+        </div> */}
         <div className="px-5 py-11 flex justify-center items-center border-b border-dashed border-gray-300">
           <div className="flex justify-center rounded-2xl max-w-3xl border-dashed items-center px-4 py-10 w-full flex-col gap-4  bg-gradient-to-br from-orange-100 to-pink-100">
             <p className="md:max-w-2xl text-center font-semibold text-xl text-black p-4 md:text-3xl text-balance">

@@ -8,7 +8,7 @@ module.exports = nextConfig;
 module.exports = {
     distDir: 'build',
     trailingSlash: true,
-    unoptimized: true,
+    // unoptimized: true,
     images: {
       remotePatterns: [
         {
